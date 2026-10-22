@@ -7,9 +7,7 @@ namespace Rhino.AI;
 
 public class MCPConnectCommand : RhinoCommand
 {
-    public override string EnglishName => "MCPConnect";
-
-    public override string LocalName => Rhino.UI.LOC.COMMANDNAME(EnglishName);
+    public override string EnglishName => Rhino.UI.LOC.COMMANDNAME("MCPConnect");
 
     protected override string CommandContextHelpUrl => DocsLinks.Homepage;
 
